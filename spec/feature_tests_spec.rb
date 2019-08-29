@@ -21,8 +21,6 @@ describe GildedRose do
   describe 'updating items' do
     it 'updates original items in 1 day' do
       days = 1
-      p items[0].quality
-      p items[0].sell_in
       gilded_rose = GildedRose.new(items)
       (0...days).each do |_day|
         gilded_rose.update_quality
