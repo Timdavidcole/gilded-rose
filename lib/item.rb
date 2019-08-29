@@ -40,11 +40,11 @@ class BackstagePasses < Item
     if @sell_in < 1
       @quality = 0
     elsif @sell_in < 6
-      @quality += 3 unless @quality == 50
+      @quality += 3
     elsif @sell_in < 11
-      @quality += 2 unless @quality == 50
+      @quality += 2
     else
-      @quality += 1 unless @quality == 50
+      @quality += 1
     end
     @quality = 50 if @quality > 50
   end

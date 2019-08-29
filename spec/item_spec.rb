@@ -11,6 +11,13 @@ describe Item do
       expect(item.quality).to eq 5
     end
   end
+
+  describe '#to_s' do
+    it 'turns item details into string' do
+      item = Item.new('test', 3, 5)
+      expect(item.to_s).to eq 'test, 3, 5'
+    end
+  end
 end
 
 describe AgedBrie do
