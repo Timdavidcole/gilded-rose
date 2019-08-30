@@ -11,7 +11,14 @@
 - Initially tried to refactor our a update_quality and update_sell_in method in GildedRose class, then realised something far more drastic would be needed!
 - Class inheritance seemed like the way to go if I want to keep the Item class intact.  This just meant I could create a raft of specific item classes with their own .update_quality and .update_sell_in methods which I could "polymorphically" call in Gilded Rose.
 - Which is what I did!  And it all seems to work well, and far more legibly than the massive raft of if/else statements before.
-- My only reservations is now you have to instantiate the specific class of item rather than just Item.new.  But there was nothing in the brief that said you couldn't do this.  Just to keep the functionality and not change item class.
+- My only reservations is now you have to instantiate the specific class of item rather than just Item.new.  But there was nothing in the brief that said you couldn't do this.  Just to keep the functionality and not change item class. I could easily make a little Item class method that examines the name string and picks the right one though.  Like this:
+```
+AgedBrie.new('Aged Brie', 2, 0),
+Other.new('Elixir of the Mongoose', 5, 7),
+Sulfuras.new('Sulfuras, Hand of Ragnaros', 0, 80),
+BackstagePasses.new('Backstage passes to a TAFKAL80ETC concert', 5, 49),
+Conjured.new('Conjured Mana Cake', 3, 6)
+```
 - It also doesn't check for edge cases or raise any errors, but again, they don't ask for this so I didn't put it in!
 
 Gilded rose class is particularly petite now!
