@@ -75,4 +75,4 @@ bundle install
 irb
 require './lib/gilded_rose.rb'
 ```
-But I'd recommend just having a rummage around the files :)
+But I'd recommend just having a rummage around the files, as no methods of note return anything. :)
