@@ -64,3 +64,16 @@ Conjured.new('Conjured Mana Cake', 3, 6)
 - Although could easily make a little Item class method that examines the name string and picks the right one though. Which I might well do if I've got time. 
 - It also doesn't check for edge cases or raise any errors, but again, they don't ask for this so I didn't put it in!
 - Another way to do this could have been using polymorphic class methods, searching the beginning of each Item.name string, and entering that as a class.  But that would still make a long line of conditionals in GuildRose.update_quality which is less legible.  So yeah, different strokes for different folks.  ;P
+
+## Installation
+
+You can install and run if you REALLY want to by
+
+```
+git clone git@github.com:Timdavidcole/guilded-rose.git
+cd gilded-rose
+bundle install
+irb
+require './lib/gilded_rose.rb'
+```
+But I'd recommend just having a rummage around the files :)
