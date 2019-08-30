@@ -1,4 +1,4 @@
-# Gilded Rose Refactoring Kata
+# [Gilded Rose Refactoring Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata)
 
 - So this is my attempt at the great Gilded Rose!  Decided to do it in Ruby, with which I'm most comfortable with OOP.
 
