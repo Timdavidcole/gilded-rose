@@ -63,4 +63,4 @@ Conjured.new('Conjured Mana Cake', 3, 6)
 ```
 - Although could easily make a little Item class method that examines the name string and picks the right one though.  
 - It also doesn't check for edge cases or raise any errors, but again, they don't ask for this so I didn't put it in!
-- Another way to do this could have been using Class Methods and just passing in beginning of each Item.name string, which I think would also work well.  But yeah, different strokes for different folks.  ;P
+- Another way to do this could have been using polymorphic class methods, searching the beginning of each Item.name string, and entering that as a class.  But that would still make a long line of conditionals in GuildRose.update_quality which is less legible.  So yeah, different strokes for different folks.  ;P
