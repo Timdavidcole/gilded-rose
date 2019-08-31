@@ -60,7 +60,7 @@ Sulfuras.new('Sulfuras, Hand of Ragnaros', 0, 80),
 BackstagePasses.new('Backstage passes to a TAFKAL80ETC concert', 5, 49),
 Conjured.new('Conjured Mana Cake', 3, 6)
 ```
-- I think I could fairly easily make a little Item class method that examines the name string and picks the right one though. Which I might well do if I've got time. 
+- I think I could fairly easily make a little Item class method that examines the name string and picks the right one though. Although not completely sure how I'd do this without changing the Item class itself. I might take a look if I've got time. 
 - Currently it also doesn't check for edge cases or raise any errors, but again, they don't ask for this so I didn't put it in!
 - Another way to do this could have been using polymorphic class methods, searching the beginning of each Item.name string, and entering that as a class.  But that would still make a long line of conditionals in GuildRose.update_quality which is less legible.  So yeah, different strokes for different folks.  ;P
 
