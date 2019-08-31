@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative '../lib/item.rb'
+require_relative '../lib/items.rb'
 
 describe Item do
   describe '#initialize' do
