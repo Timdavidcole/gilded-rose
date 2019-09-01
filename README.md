@@ -2,7 +2,7 @@
 
 - So this is my attempt at cleaning up the great [Gilded Rose](https://github.com/emilybache/GildedRose-Refactoring-Kata)!  Decided to do it in Ruby, with which I'm most comfortable doing OOP.
 
-- I really enjoyed it, didn't actually find it too hard, but that's maybe because I haven't refactored it well enough :P.
+- I really enjoyed it, didn't actually find it too hard, but that may well be because I haven't refactored it well enough :P.
 
 ## My Approach
 
