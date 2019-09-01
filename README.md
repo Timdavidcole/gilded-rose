@@ -25,7 +25,7 @@ class GildedRose
   end
 end
 ```
-- Which is what I did!  And it all seems to work well, and far more legibly than the massive raft of if/else statements before.
+- Which is what I did!  And it all seems to work well, and far more legibly than the massive staircase of if/else statements before.
 ```
 class Item
   attr_accessor :name, :sell_in, :quality
