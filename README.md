@@ -7,7 +7,7 @@
 ## My Approach
 
 - Wrote a full passing testing suite for the original code in rspec.  Had feature tests, and a couple unit tests for the item class. Used these to check I wasn't breaking any functionality.
-- Initially tried to refactor our a update_quality and update_sell_in method in GildedRose class, then realised something far more drastic would be needed!
+- Initially tried to refactor an update_quality and update_sell_in method in GildedRose class, then realised something far more drastic would be needed!
 - Class inheritance seemed like the way to go if I want to keep the Item class intact.  This just meant I could create a raft of specific item classes with their own .update_quality and .update_sell_in methods which I could "polymorphically" call in Gilded Rose.
 ```
 class GildedRose
