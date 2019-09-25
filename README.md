@@ -1,6 +1,6 @@
 # [Gilded Rose Refactoring Kata](https://github.com/emilybache/GildedRose-Refactoring-Kata)
 
-- So this is my attempt at cleaning up the great [Gilded Rose](https://github.com/emilybache/GildedRose-Refactoring-Kata)!  Decided to do it in Ruby, with which I'm most comfortable doing OOP.
+- So this is my attempt at cleaning up the great [Gilded Rose](https://github.com/emilybache/GildedRose-Refactoring-Kata)!  Decided to do it in Ruby, with which I'm most comfortable at OOP.
 
 - I really enjoyed it, didn't actually find it too hard, but that may well be because I haven't refactored it well enough :P.
 
